@@ -4,16 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
 
+*{   
+
+}
 body {
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
+    
 }
 
-img {
-    width: 30%;
+
+.left img {
+ 
+
 }
 
-section {
+.right {
     background-color: white;
 }
 
