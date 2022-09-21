@@ -43,12 +43,12 @@ section#produto > div#imagem {
     background-image: url('../images/image-product-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 240px;
 }
 
 section#produto > div#conteudo {
     display: block;
-    padding: 10px;
+    padding: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
