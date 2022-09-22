@@ -51,7 +51,7 @@ section#produto > div#conteudo {
     font-family: 'Montserrat', sans-serif;
 }
 
-div#conteudo > h4 {
+div#conteudo > h3 {
     color: hsl(228, 12%, 48%);
     letter-spacing: 4px;
     font-size: 14px;
@@ -70,7 +70,7 @@ div#conteudo > h1 {
 div#conteudo > p {
     font-size: 14px;
     color: hsl(228, 12%, 48%);
-    line-height: 1.5em; 
+    line-height: 1.7em; 
 }
 
 div.preços {
