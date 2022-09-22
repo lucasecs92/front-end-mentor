@@ -52,6 +52,57 @@ section#produto > div#conteudo {
     font-family: 'Montserrat', sans-serif;
 }
 
-section#produto > div#conteudo > h1 {
+div#conteudo > h4 {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3.5px;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+div#conteudo > h1 {
     font-family: 'Fraunces', serif;
+    font-size: 2em;
+    margin: 10px 0px;
+}
+
+div#conteudo > p {
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.7em;
+}
+
+div.preços {
+    display: block;
+    margin-top: 20px;
+}
+
+p.preço-atualizado {
+    font-family: 'Fraunces', serif;
+    float: left;
+    padding-right: 15px;
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+}
+
+p.preço-anterior {
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: 14px;
+    margin: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+form {
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    margin: 20px 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form > a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
 }
