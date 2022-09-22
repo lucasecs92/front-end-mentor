@@ -19,5 +19,15 @@
     section#produto > div#conteudo {
         float: right;
         width: 50%;
+        padding: 40px;
+    }
+
+    div#conteudo > h1 {
+        font-size: 2.5em;
+        padding: 15px 0px 20px 0px;
+    }
+
+    div#conteudo > p {
+        font-size: 20px;
     }
 }
