@@ -32,7 +32,7 @@ section#produto {
 
     background-color: white;
     height: 610px;
-    width: 340px;
+    width: 375px;
 
     border-radius: 10px;
     overflow: hidden;
@@ -43,7 +43,7 @@ section#produto > div#imagem {
     background-image: url('../images/image-product-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 240px;
+    height: 270px;
 }
 
 section#produto > div#conteudo {
@@ -54,21 +54,24 @@ section#produto > div#conteudo {
 
 div#conteudo > h4 {
     color: hsl(228, 12%, 48%);
-    letter-spacing: 3.5px;
-    font-size: 0.8em;
+    letter-spacing: 4px;
+    font-size: 14px;
     font-weight: normal;
+    padding: 2px;
 }
 
 div#conteudo > h1 {
     font-family: 'Fraunces', serif;
     font-size: 2em;
     margin: 10px 0px;
+    padding: 2px;
+    line-height: 1em;
 }
 
 div#conteudo > p {
-    font-size: 13px;
+    font-size: 14px;
     color: hsl(228, 12%, 48%);
-    line-height: 1.7em;
+    line-height: 1.5em; 
 }
 
 div.preços {
@@ -87,7 +90,7 @@ p.preço-atualizado {
 p.preço-anterior {
     display: inline-block;
     text-decoration: line-through;
-    font-size: 14px;
+    font-size: 13px;
     margin: 10px;
     color: hsl(228, 12%, 48%);
 }
