@@ -103,9 +103,15 @@ form {
     border-radius: 10px;
 }
 
+form:hover {
+    background-color: hsl(159, 36%, 17%);
+    cursor: pointer;
+}
+
 form > a {
     text-decoration: none;
     color: white;
     font-size: 14px;
     padding: 10px;
 }
+

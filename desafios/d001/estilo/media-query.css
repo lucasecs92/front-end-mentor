@@ -19,15 +19,42 @@
     section#produto > div#conteudo {
         float: right;
         width: 50%;
-        padding: 40px;
+        padding: 40px 40px;
+    }
+
+    div#conteudo > h3 {
+        font-size: 18px;
     }
 
     div#conteudo > h1 {
         font-size: 2.5em;
-        padding: 15px 0px 20px 0px;
+        padding: 20px 0px;
     }
 
     div#conteudo > p {
         font-size: 20px;
+    }
+
+    div.preços {
+        margin-top: 50px;
+    }
+
+    p.preço-atualizado {
+        font-size: 2.5em;
+        padding-right: 25px;
+    }
+
+    p.preço-anterior {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    form {
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    form > a {
+        font-size: 18px;
     }
 }
