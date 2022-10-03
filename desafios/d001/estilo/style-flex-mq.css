@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    
+    #container {
+        height: 627px;
+        width: 800px;
+    }
+
+    #container > div#imagem {
+        
+        background-image: url('../images/image-product-desktop.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
