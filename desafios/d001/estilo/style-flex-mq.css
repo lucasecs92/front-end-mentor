@@ -19,48 +19,55 @@
 
         width: 50%;
         height: 100%;
-        padding: 0px 55px;
+        padding: 0px 40px;
     }
 
     /* CONTEÚDO */
-
+    
     #container > div#conteudo {
         width: 50%;
-        padding: 40px 40px;
+        padding: 40px;
+
+        display: grid;
     }
 
     div#conteudo > h3 {
         font-size: 18px;
+        padding: 0px 0px 20px 0px;
     }
 
     div#conteudo > h1 {
         font-size: 2.5em;
-        padding: 20px 0px;
     }
 
     div#conteudo > p {
-        font-size: 18px;
+        font-size: 20px;
+        padding-top: 30px;
+        margin: 0px;
     }
 
     div.preços {
-        margin-top: 50px;
+        margin: 0px;
+        padding: 30px 0px 30px 0px;
     }
 
     p.preço-atualizado {
         font-size: 2.5em;
-        padding-right: 25px;
+        padding-right: 20px;
     }
 
     p.preço-anterior {
         font-size: 18px;
-        margin: 15px;
+        margin: 20px;
     }
 
     form {
-        margin-top: 30px;
+        margin: 0px;
+        padding: 10px;
     }
 
     form > a {
-        font-size: 18px;
+        font-size: 20px;
     }
+    
 }
