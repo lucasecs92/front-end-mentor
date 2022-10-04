@@ -15,22 +15,35 @@ body, html {
     width: 100vw;
     background-color: hsl(0, 0%, 95%);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
+    width: 375px;
+    
+}
+
+.rect {
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 30px;
+    
 }
 
-#container > div#sedans {
+.carros > div.sedans {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
 }
 
-#container > div#suvs {
+.carros > div.suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
-#container > div#luxury {
+.carros > div.luxury {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
 }
 
 h1 {
@@ -41,3 +54,4 @@ h1 {
 p {
     color: hsla(0, 0%, 100%, 0.75);
 }
+
