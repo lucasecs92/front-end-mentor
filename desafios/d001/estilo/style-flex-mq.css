@@ -4,14 +4,63 @@
     
     #container {
         height: 627px;
-        width: 800px;
+        width: 800px; 
+
+        display: flex;
+        flex-direction: row;       
     }
 
+    /* IMAGEM */
+
     #container > div#imagem {
-        
         background-image: url('../images/image-product-desktop.jpg');
         background-size: cover;
         background-repeat: no-repeat;
+
+        width: 50%;
+        height: 100%;
+        padding: 0px 55px;
     }
 
+    /* CONTEÚDO */
+
+    #container > div#conteudo {
+        width: 50%;
+        padding: 40px 40px;
+    }
+
+    div#conteudo > h3 {
+        font-size: 18px;
+    }
+
+    div#conteudo > h1 {
+        font-size: 2.5em;
+        padding: 20px 0px;
+    }
+
+    div#conteudo > p {
+        font-size: 18px;
+    }
+
+    div.preços {
+        margin-top: 50px;
+    }
+
+    p.preço-atualizado {
+        font-size: 2.5em;
+        padding-right: 25px;
+    }
+
+    p.preço-anterior {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    form > a {
+        font-size: 18px;
+    }
 }
