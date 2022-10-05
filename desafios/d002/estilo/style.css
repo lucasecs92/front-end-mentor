@@ -21,15 +21,14 @@ body, html {
 }
 
 #container {
-    width: 375px;
-    
+    width: 220px;
 }
 
 .rect {
+    /* width: 200px; height: 240px; */
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     padding: 30px;
-    
 }
 
 .carros > div.sedans {
@@ -46,9 +45,14 @@ body, html {
     border-radius: 0px 0px 10px 10px;
 }
 
+img {
+    width: 40px;
+}
+
 h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
+    font-size: 1.5em;
 }
 
 p {
