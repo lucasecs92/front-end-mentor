@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    
+    #container {
+        width: 900px;  
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.sedans {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    div.luxury {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .carros {
+       padding: 40px; 
+    }
+
+    .carros > img {
+        width: 50px;
+    }
+
+    .carros > h1 {
+        padding: 20px 10px;
+        font-size: 2em;
+    }
+
+    .carros > p {
+        font-size: 15px;
+        padding-bottom: 50px;
+    }
+
+    /*
+    .sedans button {
+        width: 130px;
+        padding: 15px;
+        margin-top: 100px;
+        font-size: 12px;
+    }
+    */
+}
