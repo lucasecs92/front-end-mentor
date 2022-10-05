@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Mobile-First */
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 /* font-family: 'Lexend Deca', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
@@ -24,38 +26,99 @@ body, html {
     width: 220px;
 }
 
-.rect {
-    /* width: 200px; height: 240px; */
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
-    padding: 30px;
-}
-
-.carros > div.sedans {
+div.sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 10px 0px 0px;
 }
 
-.carros > div.suvs {
+div.suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
-.carros > div.luxury {
+div.luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0px 0px 10px 10px;
 }
 
-img {
-    width: 40px;
+.carros { 
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 20px;
 }
 
-h1 {
+.carros > img {
+    width: 40px;
+    padding: 10px;
+}
+
+.carros > h1 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
     font-size: 1.5em;
+    padding: 10px;
 }
 
-p {
+.carros > p {
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.65em;
+    padding: 10px;
+    line-height: 1.5em;
 }
 
+/* BOTÕES */
+
+.sedans button {
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 8px;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.suvs button {
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 8px;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.luxury button {
+    border: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 8px;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
