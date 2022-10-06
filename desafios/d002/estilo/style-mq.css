@@ -3,7 +3,7 @@
 @media screen and (min-width: 992px) {
     
     #container {
-        width: 900px;  
+        width: 920px;  
         height: 500px;
         display: flex;
         justify-content: center;
@@ -34,14 +34,20 @@
     .carros > p {
         font-size: 15px;
         padding-bottom: 50px;
+        line-height: 1.8em;
     }
 
-    /*
-    .sedans button {
-        width: 130px;
+    /* BOTÔES */
+
+    #container button {
+        width: 150px;
         padding: 15px;
-        margin-top: 100px;
+        margin-top: 30px;
         font-size: 12px;
     }
-    */
+
+    #container button:hover {
+        padding: 13px;
+    }
+    
 }
