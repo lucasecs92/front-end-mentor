@@ -23,12 +23,12 @@
     }
 
     .carros > img {
-        width: 50px;
+        width: 60px;
     }
 
     .carros > h1 {
         padding: 20px 10px;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .carros > p {
@@ -43,7 +43,7 @@
         width: 150px;
         padding: 15px;
         margin-top: 30px;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     #container button:hover {
