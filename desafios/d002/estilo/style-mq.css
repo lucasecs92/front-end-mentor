@@ -2,42 +2,50 @@
 
 @media screen and (min-width: 992px) {
     
-    #container {
-        width: 920px;  
+    main.container {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: flex-start;
+        padding: 100px;
     }
 
-    div.sedans {
+    article {
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+    }
+
+    
+    /*
+    article.sedans {
         border-radius: 10px 0px 0px 10px;
     }
 
-    div.luxury {
+    article.luxury {
         border-radius: 0px 10px 10px 0px;
     }
 
-    .carros {
+    .card {
        padding: 40px; 
     }
 
-    .carros > img {
+    .card > img {
         width: 60px;
     }
 
-    .carros > h1 {
+    .card > h2 {
         padding: 20px 10px;
         font-size: 2.5em;
     }
 
-    .carros > p {
+    .card > p {
         font-size: 15px;
         padding-bottom: 50px;
         line-height: 1.8em;
     }
 
     /* BOTÔES */
-
+    /*
     #container button {
         width: 150px;
         padding: 15px;
@@ -48,5 +56,5 @@
     #container button:hover {
         padding: 13px;
     }
-    
+    */
 }

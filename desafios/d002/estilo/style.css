@@ -17,49 +17,50 @@ body, html {
     width: 100vw;
     background-color: hsl(0, 0%, 95%);
 
+}
+
+main.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
-#container {
-    width: 220px;
+article {
+    width: 190px;
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-div.sedans {
+article.sedans {
     background-color: hsl(31, 77%, 52%);
     border-radius: 10px 10px 0px 0px;
 }
 
-div.suvs {
+article.suvs {
     background-color: hsl(184, 100%, 22%);
 }
 
-div.luxury {
+article.luxury {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0px 0px 10px 10px;
 }
 
-.carros { 
-    font-family: 'Lexend Deca', sans-serif;
-    padding: 20px;
-}
-
-.carros > img {
-    width: 40px;
+.card > img {
+    width: 50px;
     padding: 10px;
 }
 
-.carros > h1 {
+.card > h2 {
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
-    font-size: 1.5em;
+    font-size: 1.8em;
     padding: 10px;
 }
 
-.carros > p {
+.card > p {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 0.65em;
+    font-size: 0.7em;
     padding: 10px;
     line-height: 1.5em;
 }
@@ -71,9 +72,9 @@ div.luxury {
     border-radius: 30px;
     margin: 10px;
     padding: 10px;
-    width: 100px;
+    width: 110px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 10px;
+    font-size: 0.7em;
     color: hsl(31, 77%, 52%);
 }
 
@@ -90,9 +91,9 @@ div.luxury {
     border-radius: 30px;
     margin: 10px;
     padding: 10px;
-    width: 100px;
+    width: 110px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 10px;
+    font-size: 0.7em;
     color: hsl(184, 100%, 22%);
 }
 
@@ -109,9 +110,9 @@ div.luxury {
     border-radius: 30px;
     margin: 10px;
     padding: 10px;
-    width: 100px;
+    width: 110px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 10px;
+    font-size: 0.7em;
     color: hsl(179, 100%, 13%);
 }
 
