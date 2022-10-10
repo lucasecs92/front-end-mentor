@@ -10,5 +10,54 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 
+body, html {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    background-color: aquamarine;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.card {
+    padding: 30px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.titulo {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2em;
+}
+
+/*
+article > img {
+    width: 3em;
+}
+*/
