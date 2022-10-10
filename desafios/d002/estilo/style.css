@@ -19,11 +19,12 @@
 }
 
 body, html {
+ /* min-height: 100vh; */
     font-family: 'Lexend Deca', sans-serif;
 }
 
 main {
-  /*  min-height: 100vh; */
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
