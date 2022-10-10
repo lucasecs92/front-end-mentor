@@ -15,28 +15,26 @@
 
 body, html {
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 15px;
 }
 
 main {
-    background-color: aquamarine;
-    height: 100vh;
+    min-height: 100vh;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .container {
-    width: 375px;
+    max-width: 19rem;
     border-radius: 10px;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .card {
-    padding: 30px;
+    padding: 2.5rem;
     display: grid;
     row-gap: 20px;
 }
@@ -51,13 +49,47 @@ main {
     background-color: hsl(179, 100%, 13%);
 }
 
-.titulo {
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 2em;
+.car-icon {
+    margin-bottom: 1rem;
 }
 
-/*
-article > img {
-    width: 3em;
+.titulo {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
 }
-*/
+
+.paragrafo {
+    font-size: 15px;
+    line-height: 1.7em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* BOTÕES */
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.btn-one {color:hsl(31, 77%, 52%);}
+.btn-two {color:hsl(184, 100%, 22%);}
+.btn-three {color:hsl(179, 100%, 13%);}
+
+.btn:hover {
+    color: hsl(0, 0%, 95%);
+}
+
+.btn-one:hover {background-color: hsl(31, 77%, 52%);}
+.btn-two:hover {background-color:hsl(184, 100%, 22%);}
+.btn-three:hover {background-color:hsl(179, 100%, 13%);}
