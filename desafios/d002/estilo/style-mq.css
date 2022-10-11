@@ -5,7 +5,7 @@
 @media screen and (min-width: 1015px) {
 
     main {
-        margin: 0;
+        padding: 0px;
     }
 
     .container {
@@ -29,7 +29,7 @@
     }
 
     .paragrafo {
-        margin-bottom: 7rem;
+        margin-bottom: 4rem;
     }
     
 }
