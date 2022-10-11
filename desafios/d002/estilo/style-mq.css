@@ -3,11 +3,11 @@
 /* Media Query */
 
 @media screen and (min-width: 1015px) {
-
-  /*  main {
+    
+    main {
        padding: 0px;
-    } */
-
+    }
+    
     .container {
      /* max-width: 100vw; */
         max-width: 57.5rem;
