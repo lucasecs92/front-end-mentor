@@ -61,14 +61,14 @@ main {
 
 .titulo {
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     text-transform: uppercase;
     color: hsl(0, 0%, 95%);
 }
 
 .paragrafo {
-    font-size: 15px;
-    line-height: 1.7em;
+    font-size: 0.92rem;
+    line-height: 1.8rem;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
