@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+       
+    .container-filho {
+        width: 42rem;
+        height: 31.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* IMAGEM */
+
+    .imagem {
+        background-image: url('../images/image-product-desktop.jpg');
+        background-size: contain;
+        height: 100%;
+        width: 50%;
+        padding: 2.5rem;
+    }
+
+    /* CONTEÚDO */
+
+    .conteudo {
+        width: 50%;
+        height: 100;
+        padding: 2.5rem;
+    }
+    
+    .t3 {
+        font-size: 0.930rem;
+        margin-bottom: 1.7rem;
+    }
+
+    .t1 {
+        margin-bottom: 1.7rem;
+    }
+
+    .paragrafo {
+        font-size: 0.910rem;
+    }
+    
+    .preços {
+        margin-bottom: 2rem;
+    }
+    
+}
