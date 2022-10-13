@@ -27,12 +27,13 @@
         padding: 2.5rem;
     }
     
-    h3 {
+    .conteudo > h3 {
         font-size: 0.930rem;
         margin-bottom: 1.7rem;
     }
 
-    h1 {
+    .conteudo > h1 {
+        font-size: 2rem;
         margin-bottom: 1.7rem;
     }
 
@@ -44,4 +45,7 @@
         margin-bottom: 2rem;
     }
     
+    .preço-atualizado {
+        font-size: 2rem;
+    }
 }
