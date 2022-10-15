@@ -51,17 +51,17 @@ body {
     padding: 1.5rem;
 }
 
-.t3 {
-    font-size: 0.9rem;
+.conteudo > h3 {
+    font-size: 0.850rem;
     letter-spacing: 0.2rem;
     font-weight: normal;
     color: hsl(228, 12%, 48%);
     margin-bottom: 1rem;
 }
 
-.t1 {
+.conteudo > h1 {
     font-family: 'Fraunces', serif;
-    font-size: 2rem;
+    font-size: 1.860rem;
     line-height: 2rem;
     margin-bottom: 1rem;
 }
@@ -81,7 +81,7 @@ body {
 
 .preço-atualizado {
     font-family: 'Fraunces', serif;
-    font-size: 2rem;
+    font-size: 1.860rem;
     color: hsl(158, 36%, 37%);
 }
 
