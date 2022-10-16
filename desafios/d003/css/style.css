@@ -45,15 +45,13 @@ main {
 }
 
 .conteudo {
-    padding: 2em;
+    padding: 1.690em;
     text-align: center;
-
-    display: grid;
-    row-gap: 1em;
 }
 
 .titulo {
     font-size: 1.4em;
+    margin-bottom: 0.8em;
 }
 
 .highlight {
@@ -64,18 +62,24 @@ main {
     font-size: 0.750em;
     line-height: 1.9em;
     color: hsla(0, 0%, 100%, 0.6);
+    margin-bottom: 2rem;
+}
+
+.blc {
+    margin: 1.3em 1em 0.3em 1em;
+    display: grid;
+    row-gap: 0.3em;
 }
 
 .quantidade {
     font-size: 1.2em;
-    margin-top: 10px;
-    margin-bottom: -10px;
 }
 
 .benefits {
-    font-family: 'Lexend Deca', sans-serif;;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 0.6em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: hsla(0, 0%, 100%, 0.6);
 }
+
