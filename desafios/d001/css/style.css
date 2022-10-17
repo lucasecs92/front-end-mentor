@@ -15,13 +15,11 @@
 
 body {
    background-color: hsl(30, 38%, 92%);
-   font-family: 'Montserrat', sans-serif;
-   
+   font-family: 'Montserrat', sans-serif;  
 }
 
 .container-pai {
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;

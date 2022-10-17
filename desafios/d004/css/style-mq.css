@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 40rem;
+        border-radius: 10px;
+    }
+
+    .conteudo {
+        padding: 3rem;
+    }
+
+    .a2 {
+        display: inline-block;
+        width: 50%;
+    }
+
+    
+
+}
