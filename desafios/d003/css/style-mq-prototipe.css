@@ -37,6 +37,7 @@
     .terceiro {
         display: flex;
         flex-direction: row;
+        margin-top: 1.7em;
     }
 
     .quantidade , .benefits {
