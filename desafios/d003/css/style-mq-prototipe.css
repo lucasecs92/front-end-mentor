@@ -5,8 +5,8 @@
 @media screen and (min-width: 1015px) {
 
     .container {
-        width: 50rem;
-        height: 30rem;
+        width: 55rem;
+        height: 22rem;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -16,17 +16,32 @@
         background-size: contain;
         width: 50%;
         height: 100%;
+        padding: 3rem;
     }
 
     .conteudo {
         width: 50%;
-        padding: 3rem;
-     /* text-align: justify; */
+        padding: 3.5rem;
+        text-align: left; 
     }
 
     .titulo {
-        font-size: 1.8em;
+        font-size: 1.8em; 
+    }
+
+    .paragrafo {
+        font-size: 0.805em; 
+        line-height: 1.5em;
     }
     
-    
+    .terceiro {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .quantidade , .benefits {
+        display: inline-block;
+        padding-left: 0em;
+    }
+
 }
