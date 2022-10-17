@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 1015px) {
+
+    .container {
+        width: 50rem;
+        height: 30rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .imagem {
+        background-image: url('../images/image-header-desktop.jpg');
+        background-size: contain;
+        width: 50%;
+        height: 100%;
+    }
+
+    .conteudo {
+        width: 50%;
+        padding: 3rem;
+     /* text-align: justify; */
+    }
+
+    .titulo {
+        font-size: 1.8em;
+    }
+    
+    
+}
