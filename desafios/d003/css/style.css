@@ -62,17 +62,22 @@ main {
     font-size: 0.750em;
     line-height: 1.9em;
     color: hsla(0, 0%, 100%, 0.6);
-    margin-bottom: 2rem;
+    padding-bottom: 0.8em;
 }
-
+/*
 .blc {
     margin: 1.3em 1em 0.3em 1em;
     display: grid;
     row-gap: 0.3em;
-}
+} */
+.terceiro {
+    display: flex;  
+    flex-direction: column;
+ }
 
 .quantidade {
     font-size: 1.2em;
+    padding-top: 1em;
 }
 
 .benefits {
@@ -81,5 +86,8 @@ main {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: hsla(0, 0%, 100%, 0.6);
+    padding: 0.5em;
 }
+
+
 
