@@ -38,9 +38,7 @@ main {
 /* CAIXA 1 */
 
 .r1 {
-    background-color: white;
-    display: grid;
-    row-gap: 20px;
+    background-color: white
 }
 
 .t1 {
@@ -52,12 +50,13 @@ main {
     font-size: 0.930em;
     font-weight: bold;
     color: hsl(71, 73%, 54%);
+    margin: 1.2em 0em;
 }
 
 .p2 { 
     font-size: 0.870em;
     color: hsl(203, 10%, 74%);
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 /* CAIXA 2 */
@@ -112,13 +111,12 @@ main {
 /* CAIXA 3 */
 .r3 {
     background-color: hsl(179, 47%, 52%);
-    display: grid;
-    row-gap: 20px;
 }
 
 .t3 {
     color: white;
     font-size: 1.150em;
+    margin-bottom: 1.2em;
 }
 .lista {
     font-size: 0.9em;

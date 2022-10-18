@@ -2,7 +2,11 @@
 
 /* DESKTOP */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 812px) {
+
+    .item1 { grid-area: a1; }
+    .item2 { grid-area: a2; }
+    .item3 { grid-area: a3; }
 
     .container {
         width: 40rem;
@@ -12,12 +16,26 @@
                              "a2 a3";
     }
 
-    .item1 { grid-area: a1; }
-    .item2 { grid-area: a2; }
-    .item3 { grid-area: a3; }
-
     .conteudo {
-        padding: 2rem;
+        padding: 2.5rem;
+    }
+
+    .t1 {
+        font-size: 1.5em;
+    }
+
+    .p1 {
+        font-size: 1.120em;
+        margin-bottom: 0.5em;
+    }
+
+    .p2 {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    .r3 {
+        padding-right: 5em;
     }
 
 }
