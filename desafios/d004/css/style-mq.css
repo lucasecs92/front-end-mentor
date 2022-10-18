@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 40rem;
+        border-radius: 10px;
+        display: grid;
+        grid-template-areas: "a1 a1"
+                             "a2 a3";
+    }
+
+    .item1 { grid-area: a1; }
+    .item2 { grid-area: a2; }
+    .item3 { grid-area: a3; }
+
+    .conteudo {
+        padding: 2rem;
+    }
+
+}
